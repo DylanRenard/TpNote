@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class CompagnieAssurance 
 {
 	private String nom;
-	private ArrayList<Personne> listePersonne;
+	private ArrayList<Personne> listePersonne = new ArrayList<Personne>();
 
 	public int obtenirNombreDeClient()
 	{

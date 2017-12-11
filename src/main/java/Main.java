@@ -1,4 +1,5 @@
 import java.util.Date;
+import java.util.Scanner;
 
 public class Main 
 {
@@ -24,7 +25,9 @@ public class Main
 		cieAss.ajouterPersonne(p3);
 		cieAss.ajouterPersonne(p4);
 		
-
+		Scanner s = new Scanner(System.in);
+		String line=s.nextLine();
+		System.out.println(line);
 	}
 
 }
